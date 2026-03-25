@@ -10,7 +10,7 @@ python3 -m venv venv
 Kích hoạt môi trường ảo (tuỳ vào hệ điều hành):
 - macOS/Linux	bash/zsh
 ```bash
-source venv/bin/
+source venv/bin/activate
 ```
 
 - Windows	Command Prompt:
