@@ -33,7 +33,7 @@ def data_ingestion(path):
 
 def date_processing(df):
     print("Đang tách dữ liệu ngày, tháng ...")
-    df[['year', 'month']] = df['visit_date'].str.split('-', expand=True)
+    df[['day', 'month']] = df['visit_date'].str.split('-', expand=True)
     # expand=True sẽ tách kết quả thành các cột riêng biệt
     return df
 
